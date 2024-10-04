@@ -4,6 +4,9 @@ body {
   color: white;
 }
 
+/* * {
+  box-sizing: border-box;
+} */
 .title {
   text-align: center;
   margin-top: 150px;
@@ -11,4 +14,23 @@ body {
 
 .title-sub {
   text-align: center;
+}
+
+.food {
+  margin: 20px auto;
+  width: 200px;
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.navbar {
+  background: white;
+  padding: 50px;
+}
+
+.navbar a {
+  margin-right: 10px;
+  text-decoration: none;
 }
